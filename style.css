@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    margin: 80px 450px 80px 450px;
+}
+
+.conteudo {
+    display: flex;
+    margin-bottom: 230px;
+}
+
+.logo {
+    width: 60%;
+    margin-right: 40px;
+}
+
+.tela {
+    width: 45%;
+}
+
+.d-1-logo {
+    padding-bottom: 25px;
+}
+
+.d-1-logo img {
+    width: 180px;
+    padding: 10px 0 20px 0;
+}
+
+.d-1-logo .principal {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-1-logo .sub-principal {
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+}
+
+.d-1-conta {
+    display: flex;
+}
+
+.perfil {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 20px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.perfil:hover {
+    box-shadow: 1px 1px 30px rgb(184, 184, 184);
+    transition-duration: 0.2s;
+}
+
+.perfil:hover > .fechar{
+    background-color: rgb(201, 201, 201);
+    width: 25px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    transition-duration: 100ms;
+}
+
+.perfil .fechar {
+    color: white;
+    border-radius: 100%;
+    width: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.perfil .foto-perfil {
+    border-radius: 8px 8px 0 0;
+    width: 159px;
+}
+
+.perfil p {
+    color: rgb(126, 126, 126);
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.add-conta {
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    padding: 15px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.add-conta:hover {
+    box-shadow: 1px 1px 30px rgb(184, 184, 184);
+    transition-duration: 0.2s;
+}
+
+.imagem-plus {
+    position: relative;
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-plus img {
+    width: 40px;
+}
+
+.texto-adicionar p {
+    color: #0080FF;
+    font-size: 18px;
+}
+
+.tela {
+    width: 450px;
+}
+
+.tela-login {
+    margin-top: 40px;
+    padding: 10px 20px 20px 20px;
+    box-shadow: 1px 1px 20px #b1b1b1;
+    border-radius: 7px;
+}
+
+.login {
+    padding: 5px 0 5px 0;
+}
+
+.login > input {
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid rgb(219, 219, 219);
+    font-size: 17px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(156, 156, 156);
+}
+
+.login > input:focus {
+    border: 1px solid #227AD1;
+}
+
+.botao-entrar {
+    padding-top: 5px;
+}
+
+.botao-entrar button {
+    width: 100%;
+    height: 47px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #0080FF;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-entrar button:hover {
+    background-color: #0075eb;
+    transition-duration: 0.2s;
+}
+
+.topo-login {
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.topo-login p {
+    text-align: center;
+    padding: 20px;
+}
+
+.topo-login p a {
+    color: #0080FF;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.baixo-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.baixo-login button {
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0fc436;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.baixo-login button:hover {
+    background-color: #0eaa30;
+    transition-duration: 0.2s;
+}
+
+.criar-pagina {
+    margin: 30px 10px 0 10px;
+}
+
+.criar-pagina p {
+    font-size: 14px;
+}
+
+.criar-pagina p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.criar-pagina a:hover {
+    text-decoration: underline;
+}
+
+.rodape {
+}
+
+.topo-rodape {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+ul li {
+    list-style: none;
+    color: rgb(126, 126, 126);
+}
+
+ul li a {
+    color: rgb(126, 126, 126);
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+li {
+    font-size: 12px;
+    padding-right: 15px;
+}
+
+.linguagens ul {
+    display: flex;
+}
+
+.linguagens li button img {
+    width: 15px;
+}
+
+.linguagens li button {
+    height: 18px;
+    width: 30px;
+    border: 1px solid rgb(216, 216, 216);
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.baixo-rodape {
+    display: flex;
+}
+
+.considerações ul li{
+    float: left;
+    padding-bottom: 7px;
+}
+
+.facebook-ano {
+    margin-top: 20px;
+}
+
+.facebook-ano p {
+    font-size: 11px;
+    color: rgb(126, 126, 126);
+}
